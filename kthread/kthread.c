@@ -31,3 +31,7 @@ static void kernel_exit(void)
 
 module_init(kernel_init);
 module_exit(kernel_exit);
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("HARISH");
+MODULE_DESCRIPTION("Kernal Thread");
+MODULE_SUPPORTED_DEVICE("kthread");
