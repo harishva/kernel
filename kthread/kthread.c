@@ -19,7 +19,7 @@ static int kernel_init(void)
     data = 20;
     printk(KERN_INFO"--------------------------------------------");
     task = kthread_create(&thread_function,(void *)data,"harish");
-    task = kthread_run(&thread_function,(void *)data,"harish");
+//    task = kthread_run(&thread_function,(void *)data,"harish");
     printk(KERN_INFO"Kernel Thread : %s\n",task->comm);
     return 0;
 }
