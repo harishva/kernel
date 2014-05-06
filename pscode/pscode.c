@@ -4,8 +4,6 @@
 #include <linux/kernel.h>
 
 
-MODULE_LICENSE("GPL");
-
 static int pscode_init(void)
 {
 	printk(KERN_INFO "Initializing Pscode Module\n");
