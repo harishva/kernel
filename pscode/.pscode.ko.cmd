@@ -1,1 +1,0 @@
-cmd_/home/harishva/test/kernel/pscode/pscode.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.13.0-38-generic/scripts/module-common.lds --build-id  -o /home/harishva/test/kernel/pscode/pscode.ko /home/harishva/test/kernel/pscode/pscode.o /home/harishva/test/kernel/pscode/pscode.mod.o
