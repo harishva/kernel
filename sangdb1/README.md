@@ -59,3 +59,12 @@ add-symbol-file /home/harishva/test/kernel/sangdb1/sangdb1.o 0xffffffffa002d000 
 30 {
 31 printk(KERN_INFO "Module sangbd_count %d\n", sangdb_count);
 ```
+```sh
+ * Page fault error code bits:
+ *
+ *   bit 0 ==    0: no page found       1: protection fault
+ *   bit 1 ==    0: read access         1: write access
+ *   bit 2 ==    0: kernel-mode access  1: user-mode access
+ *   bit 3 ==                           1: use of reserved bit detected
+ *   bit 4 ==                           1: fault was an instruction fetch
+```
