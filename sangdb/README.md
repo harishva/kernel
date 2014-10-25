@@ -1,7 +1,7 @@
 ====
 GDB
 ====
-#make
+ #make
 #make install /insmod sangdb.ko
 #cd /sys/module/sangdb
 #cd sections
