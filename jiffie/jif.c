@@ -3,10 +3,12 @@
 #include <linux/jiffies.h>
 #include <linux/timer.h>
 unsigned long js, je,hz,te,time;
+struct timespec xtime;
+
 int jif_init(void){
     js = jiffies;
     hz = HZ;
-    printk("\n[Jiffies start Time : %lu HZ: %lu]\nModule Started.\n", js,hz);
+    printk("\n[Jiffies start Time : %lu HZ: %lu epoch time:%lu ]\nModule Started.\n", js,hz,xtime.tv_sec);
     return 0;
 }
 
