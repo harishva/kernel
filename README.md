@@ -1,4 +1,4 @@
-kernel
+kernel debug
 ======
 uname -a
 
