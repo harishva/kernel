@@ -24,9 +24,10 @@
  $1 = 20
 
 
- ====
- KDB
- ====
+====
+KDB
+====
+
  #login to tty*/virtual console
 
  #echo kbd > /sys/module/kgdboc/parameters/kgdboc
